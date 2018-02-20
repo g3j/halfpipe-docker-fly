@@ -1,5 +1,5 @@
-FROM alpine:3.7
-
+FROM golang:1.10-alpine3.7
+ 
 ADD fly /usr/local/bin
 
 
